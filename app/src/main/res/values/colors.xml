@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--color name="colorPrimary">#00c853</color>
+    <color name="colorPrimaryDark">#009624</color>
+    <color name="colorPrimaryLight">#5efc82</color>
+    <color name="colorAccent">#FF9800</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="icons">#212121</color>
+    <color name="divider">#BDBDBD</color-->
+
+
+    <color name="colorPrimary">#f9a825</color>
+    <color name="colorPrimaryDark">#3949ab</color>
+    <color name="colorPrimaryLight">#fdd835</color>
+    <color name="colorAccent">#ffc107</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#757575</color>
+    <color name="icons">#212121</color>
+    <color name="divider">#BDBDBD</color>
+    <!-- Base application theme. -->
+    <!--stylename="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+
+    </style-->
+
+</resources>

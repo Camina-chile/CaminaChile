@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">CaminaChile</string>
+    <string name="camera_labelV">Video</string>
+    <string name="UserDate">DatosUsuario</string>
+    <string name="Recomendaciones">Recomendaciones</string>
+    <string name="Location">Ubicación</string>
+    <string name="Recomendar">Recomendar</string>
+    <string name="detalle_sitio_fb">Detalle sitio FireBase</string>>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="toolbar_title">Notes App</string>
+    <string name="location_name">Ubicacion</string>
+
+
+    <string name="title_click">Title click</string>
+    <string name="menu_camera">Camera</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_group">Group</string>
+    <string name="copyright">© Daniel Medina - danielme.com</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_ubicacion">UbicacionActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+    <string name="title_activity_location1">LocationlsActivity</string>
+    <string name="somos">Camina Chile es una aplicación móvil participativa, donde personas/viajeros comparten rutas y
+    destinos, revelando territorios y sus comunidades. Visibilizando una alternativa al turismo comercial,
+    y la puesta en valor las experiencias/vivencias del viajero.</string>
+
+    <string name="Restablecer">RestablecerClave</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+</resources>

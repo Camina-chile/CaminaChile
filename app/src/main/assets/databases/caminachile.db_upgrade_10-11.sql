@@ -1,0 +1,5 @@
+CREATE TABLE "comunas" (
+	"id"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	"comuna"	TEXT NOT NULL,
+	"provincia_id"	INTEGER NOT NULL
+);

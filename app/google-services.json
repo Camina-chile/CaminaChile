@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "11074187174",
+    "firebase_url": "https://caminachile-43bb6.firebaseio.com",
+    "project_id": "caminachile-43bb6",
+    "storage_bucket": "caminachile-43bb6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11074187174:android:c128071236e73b99d92967",
+        "android_client_info": {
+          "package_name": "com.exj.jc.caminachile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11074187174-qsnebjjk4se21hn92kuo2cjhlc15b10i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.exj.jc.caminachile",
+            "certificate_hash": "4ef3a2c41ffcc7da120aa828210ac136b0d997ef"
+          }
+        },
+        {
+          "client_id": "11074187174-49q7mp7pj57jt213tdh4bqamjidp4jp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBddhTq4MdMaVcaEXxC9wbtKmahXL_oB1c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11074187174-49q7mp7pj57jt213tdh4bqamjidp4jp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

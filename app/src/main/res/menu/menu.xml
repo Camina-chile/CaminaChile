@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_general"
+        android:title="General"
+        android:icon="@drawable/ic_baseline_home_work_24"
+        app:showAsAction="never|withText"
+
+        >
+        <menu>
+            <item android:id="@+id/action_locations"
+                android:title="Ubicación"
+                android:icon="@drawable/ic_location"
+                app:showAsAction="always"/>
+
+            <item android:id="@+id/action_places"
+                android:title="Lugares"
+                android:icon="@drawable/ic_map24"
+                app:showAsAction="always"/>
+            <!--item
+                android:id="@+id/menu_change_passqw"
+                app:showAsAction="always"
+                android:icon="@drawable/ic_baseline_cached_24"
+                android:title="Actualizar Contaseña">
+            </item-->
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_caminaChiel"
+        android:title="#@caminaChile"
+        android:icon="@drawable/ic_baseline_home_work_24"
+        app:showAsAction="never|withText"
+
+        >
+        <menu>
+            <item android:id="@+id/action_we"
+                android:title="Nosotros"
+                android:icon="@drawable/ic_we"
+                app:showAsAction="always"/>
+
+            <item android:id="@+id/action_socialnetwork"
+                android:title="Redes sociales"
+                android:icon="@drawable/ic_share"
+                app:showAsAction="always"/>
+            <!--item
+                android:id="@+id/menu_contact"
+                app:showAsAction="always"
+                android:icon="@drawable/ic_baseline_contact_mail_24"
+                android:title="Contato">
+            </item-->
+        </menu>
+    </item>
+
+
+    <item
+    android:id="@+id/action_cuenta"
+    android:title="Cuenta"
+    android:icon="@drawable/ic_account"
+    app:showAsAction="never"
+    >
+    <menu>
+        <item android:id="@+id/menu_logout"
+            android:title="Cerrar sesion"
+            android:icon="@drawable/ic_exit_remember"
+            app:showAsAction="always"/>
+
+        <item android:id="@+id/menu_forget_logout"
+            android:title="Olvidar y salir"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/menu_change_pass"
+            app:showAsAction="always"
+            android:icon="@drawable/ic_baseline_cached_24"
+            android:title="Actualizar Contraseña">
+        </item>
+    </menu>
+</item>
+    <item
+        android:id="@+id/action_donate"
+        android:title="Donar"
+        android:icon="@drawable/ic_baseline_credit_card"
+        app:showAsAction="never"
+        ></item>
+
+</menu>

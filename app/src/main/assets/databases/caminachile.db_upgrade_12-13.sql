@@ -1,0 +1,1 @@
+ALTER TABLE "sitio_agregado" ADD "siag_movie"  TEXT;

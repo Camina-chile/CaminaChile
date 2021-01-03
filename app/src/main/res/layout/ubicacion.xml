@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.exj.jc.caminachile.Ubicacion">
+
+    <!--ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"-->
+
+            <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/map"
+                android:name="com.google.android.gms.maps.SupportMapFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                app:layout_anchorGravity="start|top"
+                tools:context=".MapsActivity"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintRight_creator="1"
+                tools:layout_constraintTop_creator="1"/>
+
+
+
+            <!--TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:textColor="#191BDA "
+                android:text="Deslice hacia abajo para completar los campos"
+                android:textSize="15sp"
+                tools:layout_constraintTop_creator="1" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:text="Región"
+                android:textSize="18sp"
+                tools:layout_constraintTop_creator="1" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="350dp"
+                android:layout_height="43dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/map"
+                tools:layout_constraintBottom_creator="1"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintRight_creator="1"
+                tools:layout_constraintTop_creator="1" />
+
+            <Spinner
+                android:id="@+id/spRegion"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/map"
+                tools:layout_constraintBottom_creator="1"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintRight_creator="1"
+                tools:layout_constraintTop_creator="1"
+                android:visibility="gone"/>
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:text="Provincia"
+                android:textSize="18sp"
+                tools:layout_constraintTop_creator="1" />
+
+            <Spinner
+                android:id="@+id/spinner2"
+                android:layout_width="350dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/map"
+                tools:layout_constraintBottom_creator="1"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintRight_creator="1"
+                tools:layout_constraintTop_creator="1" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="4dp"
+                android:text="Ciudad/comuna"
+                android:textSize="18sp"
+                tools:layout_constraintTop_creator="1" />
+
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="350dp"
+                android:layout_height="41dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="15dp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/map"
+                tools:layout_constraintBottom_creator="1"
+                tools:layout_constraintLeft_creator="1"
+                tools:layout_constraintRight_creator="1"
+                tools:layout_constraintTop_creator="1" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#FFFFFF"
+                android:layout_marginTop="5dp" /-->
+
+
+            <!--LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dip"
+                android:gravity="center_horizontal"
+                android:weightSum="2"-->
+
+                <Button
+                    android:id="@+id/btnRegion"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@android:color/holo_green_light"
+                    android:drawableLeft="@mipmap/ic_launcher1"
+                    android:text="Mis sitios"
+                    android:visibility="gone"
+                    android:textColor="@android:color/background_light"
+                    app:layout_constraintBaseline_toBaselineOf="@+id/btnRecomendar"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    tools:layout_constraintBaseline_creator="1" />
+
+
+                <Button
+                    android:id="@+id/btnRecomendar"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginBottom="37dp"
+                    android:visibility="gone"
+                    android:background="@android:color/holo_orange_dark"
+                    android:text="recomendar"
+                    android:textColor="@android:color/background_light"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    tools:layout_constraintBottom_creator="1"
+                    tools:layout_constraintRight_creator="1" />
+
+            <!--/LinearLayout>
+        </LinearLayout>
+
+    </ScrollView-->
+
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/btnMis_sitios"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_margin="15dp"
+        app:backgroundTint="@color/colorPrimary"
+        app:floating_background_color="@color/colorPrimary"
+        app:floating_left_icon="@android:drawable/ic_dialog_map"
+        app:floating_title="Ver sitios"
+        app:floating_title_color="@android:color/white"/>
+
+    <ru.dimorinny.floatingtextbutton.FloatingTextButton
+        android:id="@+id/btnM"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="15dp"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:floating_background_color="@color/colorPrimaryDark"
+        app:floating_left_icon="@android:drawable/ic_menu_myplaces"
+        app:floating_title="Recomendar"
+        app:floating_title_color="@android:color/white"/>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnUb"
+        android:layout_width="78dp"
+        android:layout_height="53dp"
+        android:layout_gravity="top|right"
+        android:layout_margin="15dp"
+        android:src="@android:drawable/ic_menu_mylocation"
+        app:backgroundTint="#0FC4EE "/>
+
+
+</android.support.design.widget.CoordinatorLayout>

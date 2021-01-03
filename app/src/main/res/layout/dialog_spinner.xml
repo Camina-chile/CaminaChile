@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/fondo04"
+    android:layout_height="match_parent">
+
+    <ScrollView
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="36dp"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+            <LinearLayout
+
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"  >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:src="@drawable/camina" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dip"
+                android:gravity="center_horizontal"
+                android:weightSum="2">
+
+
+                <Button
+                    android:id="@+id/btndatos"
+                    android:layout_width="337dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/btn_image"
+                    android:minWidth="100dp"
+                    android:singleLine="true"
+                    android:text="Datos de registro"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="#fff"
+                    android:layout_marginTop="4dp"
+                    android:text="Región:"
+                    android:textSize="18sp" />
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+            <View
+                android:layout_height="20dp"
+                android:layout_width="match_parent" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:textColor="#fff"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="4dp"
+                    android:textSize="18sp"
+                    android:text="Provincia:" />
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <View
+                android:layout_height="20dp"
+                android:layout_width="match_parent" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:text="Ciudad:" />
+
+                <Spinner
+                    android:id="@+id/spinner3"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+            <View
+                android:layout_height="20dp"
+                android:layout_width="match_parent" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:baselineAligned="false"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="#fff"
+                    android:textSize="18sp"
+                    android:text="Categoría:" />
+
+                <Spinner
+                    android:id="@+id/spinner4"
+                    android:layout_width="100dp"
+                    android:layout_height="35dp"
+                    android:textColorHint="#fff"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <View
+                android:layout_height="20dp"
+                android:layout_width="match_parent" />
+
+
+            <EditText
+                android:id="@+id/place"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:singleLine="true"
+                android:ems="10"
+                android:hint="Nombre (*)"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                app:backgroundTint="@color/colorAccent"
+                android:textStyle="italic"/>
+
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:ems="10"
+                android:hint="Comentario..."
+                android:singleLine="true"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:textStyle="italic"
+                app:backgroundTint="@color/colorAccent" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="5dp" />
+            <Button
+                android:id="@+id/btn_camara"
+                android:layout_width="300dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_datos"
+                android:textColor="@color/cardview_light_background"
+                android:text="Foto" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginTop="5dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

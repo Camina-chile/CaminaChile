@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.exj.jc.caminachile">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name=".Donate"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme"></activity>
+        <activity
+            android:name=".Mis_sitios_fb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Detalle_sitio_fb"
+            android:label="@string/detalle_sitio_fb"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Share"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <activity
+            android:name=".WeCaminaChile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.CustomTheme" />
+        <!--
+        activity
+            android:name=".LocationActivity"
+            android:label="@string/title_activity_location"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity
+        -->
+        <activity
+            android:name=".RestablecerPass"
+            android:label="@string/Restablecer"
+            android:screenOrientation="portrait" />
+        <activity android:name=".MainMapsDestination" />
+        <!--
+activity
+            android:name=".Detalle_sitio"
+            android:theme="@style/AppTheme.NoActionBar" /
+        -->
+        <activity
+            android:name=".Inicio"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Datos"
+            android:label="@string/UserDate"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ubicacion"
+            android:label="@string/Location"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Region"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Recomendar"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/Recomendar"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyChcjNOf47xj-8nxEb5rVeqdPTeysltPRE" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="cn.pedant.SweetAlert"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:ignore="MissingClass"
+            tools:replace="android:authorities">
+
+            <!-- ressource file to create -->
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"
+                tools:replace="android:resource" />
+        </provider>
+    </application>
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+</manifest>

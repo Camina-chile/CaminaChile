@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_message_id"
+
+            android:title="Menú" />
+        <item
+            android:id="@+id/nav_chat_id"
+
+            android:title="Ubicación" />
+        <item
+            android:id="@+id/nav_profile_id"
+
+            android:title="Mis Sitios" />
+        <item
+            android:id="@+id/nav_notebooks_id"
+            android:title="Otros"
+
+            />
+    </group>
+
+    <item android:title="General">
+        <menu>
+            <item
+                android:id="@+id/nav_send_id"
+
+                android:title="Nosotros" />
+            <item
+                android:id="@+id/nav_share_id"
+
+                android:title="Contacto" />
+            <item
+                android:id="@+id/nav_photos_id"
+                android:title="Redes Sociales"
+
+                />
+            <item
+                android:id="@+id/nav_trash_id"
+                android:title="Otro"
+
+                />
+        </menu>
+    </item>
+
+    <item android:title="Cuenta">
+        <menu>
+            <item
+                android:id="@+id/nav_darkmode_id"
+                android:title="Datos"
+
+                />
+            <item
+                android:id="@+id/nav_settings_id"
+                android:title="Restablecer Clave"
+
+                />
+        </menu>
+    </item>
+
+</menu>
